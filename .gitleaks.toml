@@ -1,0 +1,18 @@
+# Gitleaks configuration file
+title = "gitleaks config"
+
+# Global allowlist for common directories to ignore
+[allowlist]
+description = "Global allowlist"
+paths = [
+    '''\.git''',
+    '''node_modules''',
+    '''vendor''',
+    '''\.vscode''',
+    '''\.idea''',
+    '''test''',
+    '''tests''',
+    '''spec''',
+    '''__tests__''',
+]
+
