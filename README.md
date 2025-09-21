@@ -54,5 +54,3 @@ duckdb -ui
 ## Requirements
 
 - `openssl` command-line tool
-- Network access to target domain
-- Certificate interception
